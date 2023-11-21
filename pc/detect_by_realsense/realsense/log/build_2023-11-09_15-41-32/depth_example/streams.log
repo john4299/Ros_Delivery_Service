@@ -1,0 +1,28 @@
+[0.736s] Invoking command in '/home/boma/realsense/src/depth_example': PYTHONPATH=/home/boma/realsense/build/depth_example/prefix_override:/home/boma/realsense/install/depth_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/depth_example build --build-base /home/boma/realsense/build/depth_example/build install --record /home/boma/realsense/build/depth_example/install.log --single-version-externally-managed
+[1.011s] running egg_info
+[1.011s] writing ../../build/depth_example/depth_example.egg-info/PKG-INFO
+[1.014s] writing dependency_links to ../../build/depth_example/depth_example.egg-info/dependency_links.txt
+[1.014s] writing entry points to ../../build/depth_example/depth_example.egg-info/entry_points.txt
+[1.014s] writing requirements to ../../build/depth_example/depth_example.egg-info/requires.txt
+[1.014s] writing top-level names to ../../build/depth_example/depth_example.egg-info/top_level.txt
+[1.014s] reading manifest file '../../build/depth_example/depth_example.egg-info/SOURCES.txt'
+[1.015s] writing manifest file '../../build/depth_example/depth_example.egg-info/SOURCES.txt'
+[1.015s] running build
+[1.015s] running build_py
+[1.016s] copying depth_example/mail_node.py -> /home/boma/realsense/build/depth_example/build/lib/depth_example
+[1.016s] running install
+[1.016s] running install_lib
+[1.017s] copying /home/boma/realsense/build/depth_example/build/lib/depth_example/mail_node.py -> /home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example
+[1.018s] byte-compiling /home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example/mail_node.py to mail_node.cpython-310.pyc
+[1.018s] running install_data
+[1.019s] running install_egg_info
+[1.021s] removing '/home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example-0.0.0-py3.10.egg-info' (and everything under it)
+[1.021s] Copying ../../build/depth_example/depth_example.egg-info to /home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example-0.0.0-py3.10.egg-info
+[1.022s] running install_scripts
+[1.038s] Installing detect_node script to /home/boma/realsense/install/depth_example/lib/depth_example
+[1.039s] Installing final_RS_node script to /home/boma/realsense/install/depth_example/lib/depth_example
+[1.039s] Installing final_node script to /home/boma/realsense/install/depth_example/lib/depth_example
+[1.039s] Installing mail_node script to /home/boma/realsense/install/depth_example/lib/depth_example
+[1.039s] Installing test_node script to /home/boma/realsense/install/depth_example/lib/depth_example
+[1.039s] writing list of installed files to '/home/boma/realsense/build/depth_example/install.log'
+[1.072s] Invoked command in '/home/boma/realsense/src/depth_example' returned '0': PYTHONPATH=/home/boma/realsense/build/depth_example/prefix_override:/home/boma/realsense/install/depth_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/depth_example build --build-base /home/boma/realsense/build/depth_example/build install --record /home/boma/realsense/build/depth_example/install.log --single-version-externally-managed

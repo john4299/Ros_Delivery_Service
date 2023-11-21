@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/depth_example/depth_example.egg-info
+writing ../../build/depth_example/depth_example.egg-info/PKG-INFO
+writing dependency_links to ../../build/depth_example/depth_example.egg-info/dependency_links.txt
+writing entry points to ../../build/depth_example/depth_example.egg-info/entry_points.txt
+writing requirements to ../../build/depth_example/depth_example.egg-info/requires.txt
+writing top-level names to ../../build/depth_example/depth_example.egg-info/top_level.txt
+writing manifest file '../../build/depth_example/depth_example.egg-info/SOURCES.txt'
+reading manifest file '../../build/depth_example/depth_example.egg-info/SOURCES.txt'
+writing manifest file '../../build/depth_example/depth_example.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/boma/realsense/build/depth_example/build
+creating /home/boma/realsense/build/depth_example/build/lib
+creating /home/boma/realsense/build/depth_example/build/lib/depth_example
+copying depth_example/test_node.py -> /home/boma/realsense/build/depth_example/build/lib/depth_example
+copying depth_example/final_RS_node.py -> /home/boma/realsense/build/depth_example/build/lib/depth_example
+copying depth_example/final_node.py -> /home/boma/realsense/build/depth_example/build/lib/depth_example
+copying depth_example/__init__.py -> /home/boma/realsense/build/depth_example/build/lib/depth_example
+copying depth_example/detect_node.py -> /home/boma/realsense/build/depth_example/build/lib/depth_example
+running install
+running install_lib
+creating /home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example
+copying /home/boma/realsense/build/depth_example/build/lib/depth_example/test_node.py -> /home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example
+copying /home/boma/realsense/build/depth_example/build/lib/depth_example/final_RS_node.py -> /home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example
+copying /home/boma/realsense/build/depth_example/build/lib/depth_example/final_node.py -> /home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example
+copying /home/boma/realsense/build/depth_example/build/lib/depth_example/__init__.py -> /home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example
+copying /home/boma/realsense/build/depth_example/build/lib/depth_example/detect_node.py -> /home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example
+byte-compiling /home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example/test_node.py to test_node.cpython-310.pyc
+byte-compiling /home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example/final_RS_node.py to final_RS_node.cpython-310.pyc
+byte-compiling /home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example/final_node.py to final_node.cpython-310.pyc
+byte-compiling /home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example/detect_node.py to detect_node.cpython-310.pyc
+running install_data
+creating /home/boma/realsense/install/depth_example/share/ament_index
+creating /home/boma/realsense/install/depth_example/share/ament_index/resource_index
+creating /home/boma/realsense/install/depth_example/share/ament_index/resource_index/packages
+copying resource/depth_example -> /home/boma/realsense/install/depth_example/share/ament_index/resource_index/packages
+copying package.xml -> /home/boma/realsense/install/depth_example/share/depth_example
+running install_egg_info
+Copying ../../build/depth_example/depth_example.egg-info to /home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example-0.0.0-py3.10.egg-info
+running install_scripts
+Installing detect_node script to /home/boma/realsense/install/depth_example/lib/depth_example
+Installing final_RS_node script to /home/boma/realsense/install/depth_example/lib/depth_example
+Installing final_node script to /home/boma/realsense/install/depth_example/lib/depth_example
+Installing test_node script to /home/boma/realsense/install/depth_example/lib/depth_example
+writing list of installed files to '/home/boma/realsense/build/depth_example/install.log'

@@ -1,0 +1,31 @@
+[0.804s] Invoking command in '/home/jb/dev_ws/opencv_ws/test_package': PYTHONPATH=/home/jb/dev_ws/opencv_ws/build/test_package/prefix_override:/home/jb/dev_ws/opencv_ws/install/test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_package build --build-base /home/jb/dev_ws/opencv_ws/build/test_package/build install --record /home/jb/dev_ws/opencv_ws/build/test_package/install.log --single-version-externally-managed
+[0.957s] running egg_info
+[0.958s] writing ../build/test_package/test_package.egg-info/PKG-INFO
+[0.965s] writing dependency_links to ../build/test_package/test_package.egg-info/dependency_links.txt
+[0.966s] writing entry points to ../build/test_package/test_package.egg-info/entry_points.txt
+[0.966s] writing requirements to ../build/test_package/test_package.egg-info/requires.txt
+[0.966s] writing top-level names to ../build/test_package/test_package.egg-info/top_level.txt
+[0.967s] reading manifest file '../build/test_package/test_package.egg-info/SOURCES.txt'
+[0.968s] writing manifest file '../build/test_package/test_package.egg-info/SOURCES.txt'
+[0.968s] running build
+[0.968s] running build_py
+[0.968s] copying test_package/another.py -> /home/jb/dev_ws/opencv_ws/build/test_package/build/lib/test_package
+[0.968s] copying test_package/sub.py -> /home/jb/dev_ws/opencv_ws/build/test_package/build/lib/test_package
+[0.969s] running install
+[0.969s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.969s]   warnings.warn(
+[0.969s] running install_lib
+[0.970s] copying /home/jb/dev_ws/opencv_ws/build/test_package/build/lib/test_package/another.py -> /home/jb/dev_ws/opencv_ws/install/test_package/lib/python3.10/site-packages/test_package
+[0.970s] copying /home/jb/dev_ws/opencv_ws/build/test_package/build/lib/test_package/sub.py -> /home/jb/dev_ws/opencv_ws/install/test_package/lib/python3.10/site-packages/test_package
+[0.970s] byte-compiling /home/jb/dev_ws/opencv_ws/install/test_package/lib/python3.10/site-packages/test_package/another.py to another.cpython-310.pyc
+[0.971s] byte-compiling /home/jb/dev_ws/opencv_ws/install/test_package/lib/python3.10/site-packages/test_package/sub.py to sub.cpython-310.pyc
+[0.971s] running install_data
+[0.972s] running install_egg_info
+[0.973s] removing '/home/jb/dev_ws/opencv_ws/install/test_package/lib/python3.10/site-packages/test_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.973s] Copying ../build/test_package/test_package.egg-info to /home/jb/dev_ws/opencv_ws/install/test_package/lib/python3.10/site-packages/test_package-0.0.0-py3.10.egg-info
+[0.974s] running install_scripts
+[0.987s] Installing anot script to /home/jb/dev_ws/opencv_ws/install/test_package/lib/test_package
+[0.987s] Installing pub script to /home/jb/dev_ws/opencv_ws/install/test_package/lib/test_package
+[0.987s] Installing sub script to /home/jb/dev_ws/opencv_ws/install/test_package/lib/test_package
+[0.988s] writing list of installed files to '/home/jb/dev_ws/opencv_ws/build/test_package/install.log'
+[1.050s] Invoked command in '/home/jb/dev_ws/opencv_ws/test_package' returned '0': PYTHONPATH=/home/jb/dev_ws/opencv_ws/build/test_package/prefix_override:/home/jb/dev_ws/opencv_ws/install/test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_package build --build-base /home/jb/dev_ws/opencv_ws/build/test_package/build install --record /home/jb/dev_ws/opencv_ws/build/test_package/install.log --single-version-externally-managed

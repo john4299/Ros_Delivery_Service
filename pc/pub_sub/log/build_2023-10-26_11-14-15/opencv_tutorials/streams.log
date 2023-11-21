@@ -1,0 +1,31 @@
+[0.549s] Invoking command in '/home/jb/dev_ws/opencv_ws/opencv_tutorials': PYTHONPATH=/home/jb/dev_ws/opencv_ws/build/opencv_tutorials/prefix_override:/home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/opencv_tutorials build --build-base /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build install --record /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/install.log --single-version-externally-managed
+[0.707s] running egg_info
+[0.708s] writing ../build/opencv_tutorials/opencv_tutorials.egg-info/PKG-INFO
+[0.708s] writing dependency_links to ../build/opencv_tutorials/opencv_tutorials.egg-info/dependency_links.txt
+[0.708s] writing entry points to ../build/opencv_tutorials/opencv_tutorials.egg-info/entry_points.txt
+[0.708s] writing requirements to ../build/opencv_tutorials/opencv_tutorials.egg-info/requires.txt
+[0.708s] writing top-level names to ../build/opencv_tutorials/opencv_tutorials.egg-info/top_level.txt
+[0.710s] reading manifest file '../build/opencv_tutorials/opencv_tutorials.egg-info/SOURCES.txt'
+[0.710s] writing manifest file '../build/opencv_tutorials/opencv_tutorials.egg-info/SOURCES.txt'
+[0.710s] running build
+[0.710s] running build_py
+[0.710s] copying opencv_tutorials/optical_flow.py -> /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build/lib/opencv_tutorials
+[0.711s] running install
+[0.711s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.711s]   warnings.warn(
+[0.711s] running install_lib
+[0.712s] copying /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build/lib/opencv_tutorials/optical_flow.py -> /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials
+[0.712s] byte-compiling /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials/optical_flow.py to optical_flow.cpython-310.pyc
+[0.713s] running install_data
+[0.714s] running install_egg_info
+[0.715s] removing '/home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials-0.0.0-py3.10.egg-info' (and everything under it)
+[0.715s] Copying ../build/opencv_tutorials/opencv_tutorials.egg-info to /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials-0.0.0-py3.10.egg-info
+[0.715s] running install_scripts
+[0.732s] Installing cartoon script to /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/opencv_tutorials
+[0.732s] Installing edge script to /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/opencv_tutorials
+[0.732s] Installing img_control script to /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/opencv_tutorials
+[0.732s] Installing img_publisher script to /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/opencv_tutorials
+[0.732s] Installing laplace script to /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/opencv_tutorials
+[0.732s] Installing optical_flow script to /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/opencv_tutorials
+[0.732s] writing list of installed files to '/home/jb/dev_ws/opencv_ws/build/opencv_tutorials/install.log'
+[0.757s] Invoked command in '/home/jb/dev_ws/opencv_ws/opencv_tutorials' returned '0': PYTHONPATH=/home/jb/dev_ws/opencv_ws/build/opencv_tutorials/prefix_override:/home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/opencv_tutorials build --build-base /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build install --record /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/install.log --single-version-externally-managed

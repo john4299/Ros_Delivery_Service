@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/depth_example/depth_example.egg-info/PKG-INFO
+writing dependency_links to ../../build/depth_example/depth_example.egg-info/dependency_links.txt
+writing entry points to ../../build/depth_example/depth_example.egg-info/entry_points.txt
+writing requirements to ../../build/depth_example/depth_example.egg-info/requires.txt
+writing top-level names to ../../build/depth_example/depth_example.egg-info/top_level.txt
+reading manifest file '../../build/depth_example/depth_example.egg-info/SOURCES.txt'
+writing manifest file '../../build/depth_example/depth_example.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+byte-compiling /home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example/mail_node.py to mail_node.cpython-310.pyc
+running install_data
+  File "/home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example/mail_node.py", line 428
+    global ska
+    ^^^^^^^^^^
+SyntaxError: name 'ska' is used prior to global declaration
+
+running install_egg_info
+removing '/home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/depth_example/depth_example.egg-info to /home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example-0.0.0-py3.10.egg-info
+running install_scripts
+Installing detect_node script to /home/boma/realsense/install/depth_example/lib/depth_example
+Installing final_RS_node script to /home/boma/realsense/install/depth_example/lib/depth_example
+Installing final_node script to /home/boma/realsense/install/depth_example/lib/depth_example
+Installing mail_node script to /home/boma/realsense/install/depth_example/lib/depth_example
+Installing test_node script to /home/boma/realsense/install/depth_example/lib/depth_example
+writing list of installed files to '/home/boma/realsense/build/depth_example/install.log'

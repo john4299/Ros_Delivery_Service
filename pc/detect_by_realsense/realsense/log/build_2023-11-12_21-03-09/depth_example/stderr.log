@@ -1,0 +1,5 @@
+  File "/home/boma/realsense/install/depth_example/lib/python3.10/site-packages/depth_example/mail_node.py", line 428
+    global ska
+    ^^^^^^^^^^
+SyntaxError: name 'ska' is used prior to global declaration
+

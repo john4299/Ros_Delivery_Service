@@ -1,0 +1,5 @@
+[console_scripts]
+anot = test_package.another:main
+pub = test_package.pub:main
+sub = test_package.sub:main
+

@@ -1,0 +1,7 @@
+[console_scripts]
+detect_node = depth_example.detect_node:main
+final_RS_node = depth_example.final_RS_node:main
+final_node = depth_example.final_node:main
+mail_node = depth_example.mail_node:main
+test_node = depth_example.test_node:main
+

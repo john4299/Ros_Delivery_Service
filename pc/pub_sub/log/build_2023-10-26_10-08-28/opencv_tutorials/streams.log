@@ -1,0 +1,64 @@
+[0.460s] Invoking command in '/home/jb/dev_ws/opencv_ws/opencv_tutorials': PYTHONPATH=/home/jb/dev_ws/opencv_ws/build/opencv_tutorials/prefix_override:/home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/opencv_tutorials build --build-base /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build install --record /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/install.log --single-version-externally-managed
+[0.582s] running egg_info
+[0.582s] creating ../build/opencv_tutorials/opencv_tutorials.egg-info
+[0.582s] writing ../build/opencv_tutorials/opencv_tutorials.egg-info/PKG-INFO
+[0.582s] writing dependency_links to ../build/opencv_tutorials/opencv_tutorials.egg-info/dependency_links.txt
+[0.582s] writing entry points to ../build/opencv_tutorials/opencv_tutorials.egg-info/entry_points.txt
+[0.582s] writing requirements to ../build/opencv_tutorials/opencv_tutorials.egg-info/requires.txt
+[0.583s] writing top-level names to ../build/opencv_tutorials/opencv_tutorials.egg-info/top_level.txt
+[0.583s] writing manifest file '../build/opencv_tutorials/opencv_tutorials.egg-info/SOURCES.txt'
+[0.584s] reading manifest file '../build/opencv_tutorials/opencv_tutorials.egg-info/SOURCES.txt'
+[0.584s] writing manifest file '../build/opencv_tutorials/opencv_tutorials.egg-info/SOURCES.txt'
+[0.584s] running build
+[0.584s] running build_py
+[0.584s] creating /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build
+[0.584s] creating /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build/lib
+[0.584s] creating /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build/lib/opencv_tutorials
+[0.585s] copying opencv_tutorials/img_control.py -> /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build/lib/opencv_tutorials
+[0.585s] copying opencv_tutorials/__init__.py -> /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build/lib/opencv_tutorials
+[0.585s] copying opencv_tutorials/edge.py -> /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build/lib/opencv_tutorials
+[0.585s] copying opencv_tutorials/optical_flow.py -> /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build/lib/opencv_tutorials
+[0.585s] copying opencv_tutorials/img_publisher.py -> /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build/lib/opencv_tutorials
+[0.585s] copying opencv_tutorials/cartoon.py -> /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build/lib/opencv_tutorials
+[0.585s] running install
+[0.592s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.592s]   warnings.warn(
+[0.592s] running install_lib
+[0.592s] creating /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials
+[0.593s] copying /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build/lib/opencv_tutorials/img_control.py -> /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials
+[0.593s] copying /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build/lib/opencv_tutorials/__init__.py -> /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials
+[0.593s] copying /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build/lib/opencv_tutorials/edge.py -> /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials
+[0.593s] copying /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build/lib/opencv_tutorials/optical_flow.py -> /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials
+[0.593s] copying /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build/lib/opencv_tutorials/img_publisher.py -> /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials
+[0.593s] copying /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build/lib/opencv_tutorials/cartoon.py -> /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials
+[0.593s] byte-compiling /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials/img_control.py to img_control.cpython-310.pyc
+[0.594s] byte-compiling /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials/__init__.py to __init__.cpython-310.pyc
+[0.594s] byte-compiling /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials/edge.py to edge.cpython-310.pyc
+[0.594s] byte-compiling /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials/optical_flow.py to optical_flow.cpython-310.pyc
+[0.595s] byte-compiling /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials/img_publisher.py to img_publisher.cpython-310.pyc
+[0.595s] byte-compiling /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials/cartoon.py to cartoon.cpython-310.pyc
+[0.595s] running install_data
+[0.595s] creating /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/share/ament_index
+[0.596s] creating /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/share/ament_index/resource_index
+[0.596s] creating /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/share/ament_index/resource_index/packages
+[0.596s] copying resource/opencv_tutorials -> /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/share/ament_index/resource_index/packages
+[0.596s] copying package.xml -> /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/share/opencv_tutorials
+[0.596s] creating /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/share/opencv_tutorials/launch
+[0.596s] copying launch/camera.launch.py -> /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/share/opencv_tutorials/launch
+[0.596s] copying launch/optical_flow.launch.py -> /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/share/opencv_tutorials/launch
+[0.596s] copying launch/img_control.launch.py -> /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/share/opencv_tutorials/launch
+[0.596s] copying launch/edge.launch.py -> /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/share/opencv_tutorials/launch
+[0.596s] creating /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/share/opencv_tutorials/param
+[0.596s] copying param/filter.yaml -> /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/share/opencv_tutorials/param
+[0.596s] copying param/size.yaml -> /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/share/opencv_tutorials/param
+[0.596s] running install_egg_info
+[0.597s] Copying ../build/opencv_tutorials/opencv_tutorials.egg-info to /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages/opencv_tutorials-0.0.0-py3.10.egg-info
+[0.598s] running install_scripts
+[0.610s] Installing cartoon script to /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/opencv_tutorials
+[0.610s] Installing edge script to /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/opencv_tutorials
+[0.610s] Installing img_control script to /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/opencv_tutorials
+[0.610s] Installing img_publisher script to /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/opencv_tutorials
+[0.610s] Installing laplace script to /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/opencv_tutorials
+[0.611s] Installing optical_flow script to /home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/opencv_tutorials
+[0.611s] writing list of installed files to '/home/jb/dev_ws/opencv_ws/build/opencv_tutorials/install.log'
+[0.626s] Invoked command in '/home/jb/dev_ws/opencv_ws/opencv_tutorials' returned '0': PYTHONPATH=/home/jb/dev_ws/opencv_ws/build/opencv_tutorials/prefix_override:/home/jb/dev_ws/opencv_ws/install/opencv_tutorials/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/opencv_tutorials build --build-base /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/build install --record /home/jb/dev_ws/opencv_ws/build/opencv_tutorials/install.log --single-version-externally-managed
