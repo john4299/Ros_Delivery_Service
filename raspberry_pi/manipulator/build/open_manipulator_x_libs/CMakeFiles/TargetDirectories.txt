@@ -1,0 +1,10 @@
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs/CMakeFiles/uninstall.dir
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs/CMakeFiles/open_manipulator_x_libs_uninstall.dir
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs/CMakeFiles/open_manipulator_x_libs.dir
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs/CMakeFiles/test.dir
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs/CMakeFiles/edit_cache.dir
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs/CMakeFiles/rebuild_cache.dir
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs/CMakeFiles/list_install_components.dir
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs/CMakeFiles/install.dir
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs/CMakeFiles/install/local.dir
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs/CMakeFiles/install/strip.dir

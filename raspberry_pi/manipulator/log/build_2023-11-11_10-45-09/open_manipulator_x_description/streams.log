@@ -1,0 +1,32 @@
+[0.114s] Invoking command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description': /usr/bin/cmake /home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_description -DCMAKE_INSTALL_PREFIX=/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description
+[0.277s] -- The C compiler identification is GNU 11.4.0
+[0.423s] -- The CXX compiler identification is GNU 11.4.0
+[0.434s] -- Detecting C compiler ABI info
+[0.522s] -- Detecting C compiler ABI info - done
+[0.537s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.538s] -- Detecting C compile features
+[0.538s] -- Detecting C compile features - done
+[0.542s] -- Detecting CXX compiler ABI info
+[0.665s] -- Detecting CXX compiler ABI info - done
+[0.673s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.673s] -- Detecting CXX compile features
+[0.674s] -- Detecting CXX compile features - done
+[0.687s] -- Configuring incomplete, errors occurred!
+[0.687s] See also "/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description/CMakeFiles/CMakeOutput.log".
+[0.687s] [31mCMake Error at CMakeLists.txt:18 (find_package):
+[0.688s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.688s]   has asked CMake to find a package configuration file provided by
+[0.688s]   "ament_cmake", but CMake did not find one.
+[0.688s] 
+[0.689s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.689s]   any of the following names:
+[0.689s] 
+[0.689s]     ament_cmakeConfig.cmake
+[0.689s]     ament_cmake-config.cmake
+[0.689s] 
+[0.689s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.689s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.689s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.689s]   has been installed.
+[0.689s] 
+[0.689s] [0m

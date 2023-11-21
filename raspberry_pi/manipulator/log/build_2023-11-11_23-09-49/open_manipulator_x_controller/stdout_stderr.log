@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target open_manipulator_x_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_controller.dir/src/open_manipulator_x_controller.cpp.o[0m
+[01m[K/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:[m[K In member function ‘[01m[Kvoid open_manipulator_x_controller::OpenManipulatorXController::init_publisher()[m[K’:
+[01m[K/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:103:18:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+  103 |   for (auto const[01;31m[K)[m[K //& name:tools_name)
+      |                  [01;31m[K^[m[K
+[01m[K/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:103:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+  103 |   for (auto const[01;31m[K)[m[K //& name:tools_name)
+      |                  [01;31m[K^[m[K
+      |                  [32m[K;[m[K
+[01m[K/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:103:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[01m[K/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:103:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+  103 |   for (auto const[01;31m[K)[m[K //& name:tools_name)
+      |                  [01;31m[K^[m[K
+      |                  [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/open_manipulator_x_controller.dir/build.make:76: CMakeFiles/open_manipulator_x_controller.dir/src/open_manipulator_x_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/open_manipulator_x_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,75 @@
+[0.252s] Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox': AMENT_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake /home/noma/FINAL_ws/manipulator/src/dynamixel-workbench/dynamixel_workbench_toolbox -DCMAKE_INSTALL_PREFIX=/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox
+[0.331s] -- The C compiler identification is GNU 11.4.0
+[0.418s] -- The CXX compiler identification is GNU 11.4.0
+[0.429s] -- Detecting C compiler ABI info
+[0.539s] -- Detecting C compiler ABI info - done
+[0.555s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.555s] -- Detecting C compile features
+[0.556s] -- Detecting C compile features - done
+[0.561s] -- Detecting CXX compiler ABI info
+[0.684s] -- Detecting CXX compiler ABI info - done
+[0.700s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.701s] -- Detecting CXX compile features
+[0.701s] -- Detecting CXX compile features - done
+[0.706s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.024s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.177s] -- Found dynamixel_sdk: 3.7.60 (/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[1.181s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.260s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.269s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.284s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.310s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.494s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.499s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.866s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.938s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.036s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.066s] -- Looking for pthread.h
+[2.464s] -- Looking for pthread.h - found
+[2.470s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.647s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.649s] -- Found Threads: TRUE  
+[3.730s] -- Configuring done
+[3.749s] -- Generating done
+[3.756s] -- Build files have been written to: /home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox
+[3.802s] Invoked command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox' returned '0': AMENT_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake /home/noma/FINAL_ws/manipulator/src/dynamixel-workbench/dynamixel_workbench_toolbox -DCMAKE_INSTALL_PREFIX=/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox
+[3.803s] Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox': AMENT_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox -- -j8 -l8
+[4.061s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_item.cpp.o[0m
+[4.070s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_driver.cpp.o[0m
+[4.095s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_tool.cpp.o[0m
+[4.097s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_workbench.cpp.o[0m
+[5.300s] [100%] [32m[1mLinking CXX shared library libdynamixel_workbench_toolbox.so[0m
+[5.670s] [100%] Built target dynamixel_workbench_toolbox
+[5.707s] Invoked command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox' returned '0': AMENT_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox -- -j8 -l8
+[6.244s] Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox': AMENT_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox
+[6.269s] -- Install configuration: ""
+[6.269s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib/libdynamixel_workbench_toolbox.so
+[6.270s] -- Set runtime path of "/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib/libdynamixel_workbench_toolbox.so" to ""
+[6.270s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/include/
+[6.270s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox
+[6.270s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_driver.h
+[6.271s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_item.h
+[6.271s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_workbench.h
+[6.271s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_tool.h
+[6.271s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/library_path.sh
+[6.271s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/library_path.dsv
+[6.271s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench_toolbox
+[6.271s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench_toolbox
+[6.272s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/ament_prefix_path.sh
+[6.272s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/ament_prefix_path.dsv
+[6.272s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/path.sh
+[6.272s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/path.dsv
+[6.272s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.bash
+[6.273s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.sh
+[6.273s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.zsh
+[6.273s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.dsv
+[6.273s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.dsv
+[6.273s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/packages/dynamixel_workbench_toolbox
+[6.274s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.310s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.310s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[6.311s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig.cmake
+[6.311s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig-version.cmake
+[6.311s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.xml
+[6.322s] Invoked command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox' returned '0': AMENT_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox

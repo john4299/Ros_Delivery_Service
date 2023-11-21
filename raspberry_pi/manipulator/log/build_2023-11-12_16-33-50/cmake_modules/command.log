@@ -1,0 +1,4 @@
+Invoking command in '/home/noma/FINAL_ws/manipulator/build/cmake_modules': /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/cmake_modules -- -j8 -l8
+Invoked command in '/home/noma/FINAL_ws/manipulator/build/cmake_modules' returned '0': /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/cmake_modules -- -j8 -l8
+Invoking command in '/home/noma/FINAL_ws/manipulator/build/cmake_modules': /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/cmake_modules
+Invoked command in '/home/noma/FINAL_ws/manipulator/build/cmake_modules' returned '0': /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/cmake_modules

@@ -1,0 +1,6 @@
+[console_scripts]
+potato_check = open_manipulator_x_teleop.script.potato_check:main
+potato_test = open_manipulator_x_teleop.script.potato_keyboard:main
+teleop_keyboard = open_manipulator_x_teleop.script.teleop_keyboard:main
+teleop_yeah = open_manipulator_x_teleop.script.teleop_yeah:main
+

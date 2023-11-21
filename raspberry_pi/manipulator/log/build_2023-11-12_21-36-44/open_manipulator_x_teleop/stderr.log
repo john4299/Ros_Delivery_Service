@@ -1,0 +1,5 @@
+  File "/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/lib/python3.10/site-packages/open_manipulator_x_teleop/script/teleop_keyboard.py", line 349
+    elif key_value == '2':
+    ^^^^
+SyntaxError: invalid syntax
+

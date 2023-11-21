@@ -1,0 +1,23 @@
+[1.839s] Invoking command in '/home/noma/FINAL_ws/manipulator/src/pub_sub': PYTHONPATH=/home/noma/FINAL_ws/manipulator/build/test_package/prefix_override:/home/noma/FINAL_ws/manipulator/install/test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_package build --build-base /home/noma/FINAL_ws/manipulator/build/test_package/build install --record /home/noma/FINAL_ws/manipulator/build/test_package/install.log --single-version-externally-managed
+[2.199s] running egg_info
+[2.201s] writing ../../build/test_package/test_package.egg-info/PKG-INFO
+[2.201s] writing dependency_links to ../../build/test_package/test_package.egg-info/dependency_links.txt
+[2.201s] writing entry points to ../../build/test_package/test_package.egg-info/entry_points.txt
+[2.202s] writing requirements to ../../build/test_package/test_package.egg-info/requires.txt
+[2.202s] writing top-level names to ../../build/test_package/test_package.egg-info/top_level.txt
+[2.202s] reading manifest file '../../build/test_package/test_package.egg-info/SOURCES.txt'
+[2.204s] writing manifest file '../../build/test_package/test_package.egg-info/SOURCES.txt'
+[2.205s] running build
+[2.205s] running build_py
+[2.205s] running install
+[2.205s] running install_lib
+[2.205s] running install_data
+[2.205s] running install_egg_info
+[2.207s] removing '/home/noma/FINAL_ws/manipulator/install/test_package/lib/python3.10/site-packages/test_package-0.0.0-py3.10.egg-info' (and everything under it)
+[2.207s] Copying ../../build/test_package/test_package.egg-info to /home/noma/FINAL_ws/manipulator/install/test_package/lib/python3.10/site-packages/test_package-0.0.0-py3.10.egg-info
+[2.208s] running install_scripts
+[2.231s] Installing pub script to /home/noma/FINAL_ws/manipulator/install/test_package/lib/test_package
+[2.232s] Installing real_sub script to /home/noma/FINAL_ws/manipulator/install/test_package/lib/test_package
+[2.232s] Installing sub script to /home/noma/FINAL_ws/manipulator/install/test_package/lib/test_package
+[2.232s] writing list of installed files to '/home/noma/FINAL_ws/manipulator/build/test_package/install.log'
+[2.498s] Invoked command in '/home/noma/FINAL_ws/manipulator/src/pub_sub' returned '0': PYTHONPATH=/home/noma/FINAL_ws/manipulator/build/test_package/prefix_override:/home/noma/FINAL_ws/manipulator/install/test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_package build --build-base /home/noma/FINAL_ws/manipulator/build/test_package/build install --record /home/noma/FINAL_ws/manipulator/build/test_package/install.log --single-version-externally-managed

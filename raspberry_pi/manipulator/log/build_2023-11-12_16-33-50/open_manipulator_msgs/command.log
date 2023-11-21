@@ -1,0 +1,4 @@
+Invoking command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs': /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs -- -j8 -l8
+Invoked command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs' returned '0': /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs -- -j8 -l8
+Invoking command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs': /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs
+Invoked command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs' returned '0': /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs

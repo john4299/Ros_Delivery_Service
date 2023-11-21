@@ -1,0 +1,9 @@
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs/rosidl_adapter/open_manipulator_msgs:msg/JointPosition.idl
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs/rosidl_adapter/open_manipulator_msgs:msg/KinematicsPose.idl
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs/rosidl_adapter/open_manipulator_msgs:msg/OpenManipulatorState.idl
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs/rosidl_adapter/open_manipulator_msgs:srv/GetJointPosition.idl
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs/rosidl_adapter/open_manipulator_msgs:srv/GetKinematicsPose.idl
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs/rosidl_adapter/open_manipulator_msgs:srv/SetJointPosition.idl
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs/rosidl_adapter/open_manipulator_msgs:srv/SetKinematicsPose.idl
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs/rosidl_adapter/open_manipulator_msgs:srv/SetDrawingTrajectory.idl
+/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs/rosidl_adapter/open_manipulator_msgs:srv/SetActuatorState.idl

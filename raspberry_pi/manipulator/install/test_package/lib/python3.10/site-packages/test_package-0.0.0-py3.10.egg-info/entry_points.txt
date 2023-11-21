@@ -1,0 +1,5 @@
+[console_scripts]
+pub = test_package.pub:main
+real_sub = test_package.real_sub:main
+sub = test_package.sub:main
+

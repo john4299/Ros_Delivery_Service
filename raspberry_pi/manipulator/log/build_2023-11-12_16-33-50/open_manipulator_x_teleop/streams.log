@@ -1,0 +1,24 @@
+[1.304s] Invoking command in '/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_teleop': AMENT_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ PYTHONPATH=/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_teleop/prefix_override:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/lib/python3.10/site-packages:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/open_manipulator_x_teleop build --build-base /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_teleop/build install --record /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_teleop/install.log --single-version-externally-managed
+[1.576s] running egg_info
+[1.577s] writing ../../../build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/PKG-INFO
+[1.577s] writing dependency_links to ../../../build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/dependency_links.txt
+[1.577s] writing entry points to ../../../build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/entry_points.txt
+[1.577s] writing requirements to ../../../build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/requires.txt
+[1.577s] writing top-level names to ../../../build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/top_level.txt
+[1.579s] reading manifest file '../../../build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/SOURCES.txt'
+[1.580s] writing manifest file '../../../build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/SOURCES.txt'
+[1.580s] running build
+[1.580s] running build_py
+[1.581s] running install
+[1.581s] running install_lib
+[1.582s] running install_data
+[1.582s] running install_egg_info
+[1.584s] removing '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/lib/python3.10/site-packages/open_manipulator_x_teleop-2.3.0-py3.10.egg-info' (and everything under it)
+[1.584s] Copying ../../../build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info to /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/lib/python3.10/site-packages/open_manipulator_x_teleop-2.3.0-py3.10.egg-info
+[1.585s] running install_scripts
+[1.602s] Installing potato_check script to /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/lib/open_manipulator_x_teleop
+[1.602s] Installing potato_test script to /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/lib/open_manipulator_x_teleop
+[1.602s] Installing teleop_keyboard script to /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/lib/open_manipulator_x_teleop
+[1.602s] Installing teleop_yeah script to /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/lib/open_manipulator_x_teleop
+[1.602s] writing list of installed files to '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_teleop/install.log'
+[1.627s] Invoked command in '/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_teleop' returned '0': AMENT_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ PYTHONPATH=/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_teleop/prefix_override:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/lib/python3.10/site-packages:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/open_manipulator_x_teleop build --build-base /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_teleop/build install --record /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_teleop/install.log --single-version-externally-managed

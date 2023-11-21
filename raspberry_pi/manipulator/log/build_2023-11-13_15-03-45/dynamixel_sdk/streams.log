@@ -1,0 +1,41 @@
+[0.739s] Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk -- -j8 -l8
+[0.840s] [100%] Built target dynamixel_sdk
+[1.516s] Invoked command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk -- -j8 -l8
+[1.714s] Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk
+[1.854s] -- Install configuration: ""
+[1.855s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/include/
+[1.855s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/include//dynamixel_sdk
+[1.855s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.855s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.857s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.857s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.857s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[1.858s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.858s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.859s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.859s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.859s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[1.860s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.860s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.860s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[1.861s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[1.861s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[1.861s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[1.862s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[1.862s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[1.862s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[1.863s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[1.863s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[1.863s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[1.863s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[1.864s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[1.864s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[1.864s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[1.864s] -- Installing: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[1.864s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[1.865s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.865s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.865s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[1.865s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[1.865s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[2.170s] Invoked command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk

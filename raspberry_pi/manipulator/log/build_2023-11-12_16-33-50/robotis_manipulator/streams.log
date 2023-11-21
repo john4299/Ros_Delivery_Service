@@ -1,0 +1,35 @@
+[0.101s] Invoking command in '/home/noma/FINAL_ws/manipulator/build/robotis_manipulator': AMENT_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/cmake_modules CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/cmake_modules /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/robotis_manipulator -- -j8 -l8
+[0.160s] [100%] Built target robotis_manipulator
+[0.294s] Invoked command in '/home/noma/FINAL_ws/manipulator/build/robotis_manipulator' returned '0': AMENT_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/cmake_modules CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/cmake_modules /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/robotis_manipulator -- -j8 -l8
+[0.438s] Invoking command in '/home/noma/FINAL_ws/manipulator/build/robotis_manipulator': AMENT_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/cmake_modules CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/cmake_modules /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/robotis_manipulator
+[0.535s] -- Install configuration: ""
+[0.535s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib/librobotis_manipulator.so
+[0.535s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/include/
+[0.535s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/include//robotis_manipulator
+[0.535s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_manager.h
+[0.535s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_trajectory_generator.h
+[0.535s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_math.h
+[0.535s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_common.h
+[0.535s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_log.h
+[0.535s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator.h
+[0.536s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/environment/library_path.sh
+[0.536s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/environment/library_path.dsv
+[0.536s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/ament_index/resource_index/package_run_dependencies/robotis_manipulator
+[0.536s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/ament_index/resource_index/parent_prefix_path/robotis_manipulator
+[0.536s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/environment/ament_prefix_path.sh
+[0.536s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/environment/ament_prefix_path.dsv
+[0.536s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/environment/path.sh
+[0.536s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/environment/path.dsv
+[0.536s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/local_setup.bash
+[0.536s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/local_setup.sh
+[0.536s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/local_setup.zsh
+[0.536s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/local_setup.dsv
+[0.536s] -- Installing: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/package.dsv
+[0.536s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/ament_index/resource_index/packages/robotis_manipulator
+[0.536s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.537s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.537s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_libraries-extras.cmake
+[0.537s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/cmake/robotis_manipulatorConfig.cmake
+[0.537s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/cmake/robotis_manipulatorConfig-version.cmake
+[0.537s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/package.xml
+[0.718s] Invoked command in '/home/noma/FINAL_ws/manipulator/build/robotis_manipulator' returned '0': AMENT_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/cmake_modules CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/cmake_modules /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/robotis_manipulator

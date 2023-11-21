@@ -1,0 +1,4 @@
+Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces': /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+Invoked command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces' returned '0': /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces': /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces
+Invoked command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces' returned '0': /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces

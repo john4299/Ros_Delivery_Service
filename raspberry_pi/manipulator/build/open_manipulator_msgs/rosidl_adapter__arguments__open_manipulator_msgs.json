@@ -1,0 +1,14 @@
+{
+  "package_name": "open_manipulator_msgs",
+  "non_idl_tuples": [
+    "/home/noma/FINAL_ws/manipulator/src/open_manipulator_msgs:msg/JointPosition.msg",
+    "/home/noma/FINAL_ws/manipulator/src/open_manipulator_msgs:msg/KinematicsPose.msg",
+    "/home/noma/FINAL_ws/manipulator/src/open_manipulator_msgs:msg/OpenManipulatorState.msg",
+    "/home/noma/FINAL_ws/manipulator/src/open_manipulator_msgs:srv/GetJointPosition.srv",
+    "/home/noma/FINAL_ws/manipulator/src/open_manipulator_msgs:srv/GetKinematicsPose.srv",
+    "/home/noma/FINAL_ws/manipulator/src/open_manipulator_msgs:srv/SetJointPosition.srv",
+    "/home/noma/FINAL_ws/manipulator/src/open_manipulator_msgs:srv/SetKinematicsPose.srv",
+    "/home/noma/FINAL_ws/manipulator/src/open_manipulator_msgs:srv/SetDrawingTrajectory.srv",
+    "/home/noma/FINAL_ws/manipulator/src/open_manipulator_msgs:srv/SetActuatorState.srv"
+  ]
+}

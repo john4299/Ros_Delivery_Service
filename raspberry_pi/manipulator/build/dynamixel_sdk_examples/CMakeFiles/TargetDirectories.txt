@@ -1,0 +1,10 @@
+/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples/CMakeFiles/uninstall.dir
+/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples/CMakeFiles/dynamixel_sdk_examples_uninstall.dir
+/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples/CMakeFiles/read_write_node.dir
+/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples/CMakeFiles/test.dir
+/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples/CMakeFiles/edit_cache.dir
+/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples/CMakeFiles/rebuild_cache.dir
+/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples/CMakeFiles/list_install_components.dir
+/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples/CMakeFiles/install.dir
+/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples/CMakeFiles/install/local.dir
+/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples/CMakeFiles/install/strip.dir

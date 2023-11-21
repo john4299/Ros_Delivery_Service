@@ -1,0 +1,32 @@
+[0.763s] Invoking command in '/home/noma/FINAL_ws/manipulator/build/cmake_modules': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/cmake_modules -- -j8 -l8
+[1.811s] Invoked command in '/home/noma/FINAL_ws/manipulator/build/cmake_modules' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/cmake_modules -- -j8 -l8
+[1.887s] Invoking command in '/home/noma/FINAL_ws/manipulator/build/cmake_modules': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/cmake_modules
+[1.905s] -- Install configuration: ""
+[1.905s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/cmake/Modules
+[1.906s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/cmake/Modules/FindTBB.cmake
+[1.907s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/cmake/Modules/FindTinyXML.cmake
+[1.907s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/cmake/Modules/FindUUID.cmake
+[1.907s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/cmake/Modules/FindXenomai.cmake
+[1.908s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/cmake/Modules/FindTinyXML2.cmake
+[1.908s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/cmake/Modules/FindGSL.cmake
+[1.909s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/cmake/Modules/FindGflags.cmake
+[1.913s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/cmake/Modules/FindNUMPY.cmake
+[1.913s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/cmake/Modules/FindPoco.cmake
+[1.913s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/ament_index/resource_index/package_run_dependencies/cmake_modules
+[1.914s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/ament_index/resource_index/parent_prefix_path/cmake_modules
+[1.914s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/environment/ament_prefix_path.sh
+[1.914s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/environment/ament_prefix_path.dsv
+[1.914s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/environment/path.sh
+[1.914s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/environment/path.dsv
+[1.914s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/local_setup.bash
+[1.914s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/local_setup.sh
+[1.926s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/local_setup.zsh
+[1.926s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/local_setup.dsv
+[1.927s] -- Installing: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/package.dsv
+[1.927s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/ament_index/resource_index/packages/cmake_modules
+[1.927s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/cmake/cmake_modules-extras.cmake
+[1.927s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.927s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/cmake/cmake_modulesConfig.cmake
+[1.927s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/cmake/cmake_modulesConfig-version.cmake
+[1.927s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/package.xml
+[2.114s] Invoked command in '/home/noma/FINAL_ws/manipulator/build/cmake_modules' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/cmake_modules

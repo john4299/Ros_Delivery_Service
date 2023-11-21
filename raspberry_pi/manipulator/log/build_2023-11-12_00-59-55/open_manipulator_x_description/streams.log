@@ -1,0 +1,39 @@
+[0.242s] Invoking command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description -- -j8 -l8
+[0.807s] Invoked command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description -- -j8 -l8
+[0.843s] Invoking command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description
+[0.859s] -- Install configuration: ""
+[0.859s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/launch
+[0.860s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/launch/.DS_Store
+[0.860s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/launch/open_manipulator_x_rviz.launch.py
+[0.860s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes
+[0.861s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link3.stl
+[0.861s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link4.stl
+[0.861s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link2.stl
+[0.861s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link1.stl
+[0.862s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link_grip_r.stl
+[0.862s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link5.stl
+[0.862s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link_grip_l.stl
+[0.862s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/rviz
+[0.863s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/rviz/open_manipulator_x.rviz
+[0.863s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf
+[0.863s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/materials.xacro
+[0.863s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x_robot.urdf.xacro
+[0.863s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x.transmission.xacro
+[0.864s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x.gazebo.xacro
+[0.864s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x.urdf.xacro
+[0.865s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_description
+[0.865s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_description
+[0.865s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/environment/ament_prefix_path.sh
+[0.866s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/environment/ament_prefix_path.dsv
+[0.866s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/environment/path.sh
+[0.867s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/environment/path.dsv
+[0.867s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/local_setup.bash
+[0.867s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/local_setup.sh
+[0.867s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/local_setup.zsh
+[0.867s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/local_setup.dsv
+[0.868s] -- Installing: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/package.dsv
+[0.868s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/ament_index/resource_index/packages/open_manipulator_x_description
+[0.868s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/cmake/open_manipulator_x_descriptionConfig.cmake
+[0.869s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/cmake/open_manipulator_x_descriptionConfig-version.cmake
+[0.869s] -- Up-to-date: /home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/package.xml
+[0.955s] Invoked command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description

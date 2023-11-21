@@ -1,0 +1,1 @@
+Invoking command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs': /usr/bin/cmake /home/noma/FINAL_ws/manipulator/src/open_manipulator_msgs -DCMAKE_INSTALL_PREFIX=/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs

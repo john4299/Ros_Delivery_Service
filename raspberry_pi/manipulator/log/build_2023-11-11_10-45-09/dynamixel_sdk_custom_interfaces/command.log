@@ -1,0 +1,1 @@
+Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces': /usr/bin/cmake /home/noma/FINAL_ws/manipulator/src/DynamixelSDK/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces

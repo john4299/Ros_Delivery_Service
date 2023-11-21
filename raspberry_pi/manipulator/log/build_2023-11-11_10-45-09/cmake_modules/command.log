@@ -1,0 +1,2 @@
+Invoking command in '/home/noma/FINAL_ws/manipulator/build/cmake_modules': /usr/bin/cmake /home/noma/FINAL_ws/manipulator/src/open_manipulator_dependencies/cmake_modules -DCMAKE_INSTALL_PREFIX=/home/noma/FINAL_ws/manipulator/install/cmake_modules
+Invoked command in '/home/noma/FINAL_ws/manipulator/build/cmake_modules' returned '1': /usr/bin/cmake /home/noma/FINAL_ws/manipulator/src/open_manipulator_dependencies/cmake_modules -DCMAKE_INSTALL_PREFIX=/home/noma/FINAL_ws/manipulator/install/cmake_modules

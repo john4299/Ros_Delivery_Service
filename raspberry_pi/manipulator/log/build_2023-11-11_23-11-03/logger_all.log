@@ -1,0 +1,988 @@
+[1.602s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.602s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa968420f40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa968420460>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa968420460>>)
+[1.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.666s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/noma/FINAL_ws/manipulator'
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore_ament_install'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_pkg']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_pkg'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_meta']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_meta'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ros']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ros'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['cmake', 'python']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'cmake'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['python_setup_py']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python_setup_py'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[1.683s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[1.684s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_meta'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ros']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ros'
+[1.685s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['ignore', 'ignore_ament_install']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'ignore'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'ignore_ament_install'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['colcon_pkg']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'colcon_pkg'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['colcon_meta']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'colcon_meta'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['ros']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'ros'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['cmake', 'python']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'cmake'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'python'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['python_setup_py']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'python_setup_py'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['ignore', 'ignore_ament_install']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'ignore'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'ignore_ament_install'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['colcon_pkg']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'colcon_pkg'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['colcon_meta']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'colcon_meta'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['ros']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'ros'
+[1.687s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel-workbench/dynamixel_workbench' with type 'ros.ament_cmake' and name 'dynamixel_workbench'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ignore'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ignore_ament_install'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['colcon_pkg']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'colcon_pkg'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['colcon_meta']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'colcon_meta'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['ros']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ros'
+[1.688s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel-workbench/dynamixel_workbench_toolbox' with type 'ros.ament_cmake' and name 'dynamixel_workbench_toolbox'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['ignore', 'ignore_ament_install']
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'ignore'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'ignore_ament_install'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['colcon_pkg']
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'colcon_pkg'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['colcon_meta']
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'colcon_meta'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['ros']
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'ros'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['cmake', 'python']
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'cmake'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'python'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['python_setup_py']
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'python_setup_py'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extensions ['ignore', 'ignore_ament_install']
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extension 'ignore'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extension 'ignore_ament_install'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extensions ['colcon_pkg']
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extension 'colcon_pkg'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extensions ['colcon_meta']
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extension 'colcon_meta'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extensions ['ros']
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extension 'ros'
+[1.689s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator/open_manipulator' with type 'ros.ament_cmake' and name 'open_manipulator'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extension 'ignore'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extension 'ignore_ament_install'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extensions ['colcon_pkg']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extension 'colcon_pkg'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extensions ['colcon_meta']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extension 'colcon_meta'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extensions ['ros']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extension 'ros'
+[1.691s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator/open_manipulator_x_controller' with type 'ros.ament_cmake' and name 'open_manipulator_x_controller'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extensions ['ignore', 'ignore_ament_install']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extension 'ignore'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extension 'ignore_ament_install'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extensions ['colcon_pkg']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extension 'colcon_pkg'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extensions ['colcon_meta']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extension 'colcon_meta'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extensions ['ros']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extension 'ros'
+[1.692s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator/open_manipulator_x_description' with type 'ros.ament_cmake' and name 'open_manipulator_x_description'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extensions ['ignore', 'ignore_ament_install']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extension 'ignore'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extension 'ignore_ament_install'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extensions ['colcon_pkg']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extension 'colcon_pkg'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extensions ['colcon_meta']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extension 'colcon_meta'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extensions ['ros']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extension 'ros'
+[1.693s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator/open_manipulator_x_libs' with type 'ros.ament_cmake' and name 'open_manipulator_x_libs'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extensions ['ignore', 'ignore_ament_install']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extension 'ignore'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extension 'ignore_ament_install'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extensions ['colcon_pkg']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extension 'colcon_pkg'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extensions ['colcon_meta']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extension 'colcon_meta'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extensions ['ros']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extension 'ros'
+[1.695s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator/open_manipulator_x_teleop' with type 'ros.ament_python' and name 'open_manipulator_x_teleop'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extensions ['ignore', 'ignore_ament_install']
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extension 'ignore'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extension 'ignore_ament_install'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extensions ['colcon_pkg']
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extension 'colcon_pkg'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extensions ['colcon_meta']
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extension 'colcon_meta'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extensions ['ros']
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extension 'ros'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extensions ['cmake', 'python']
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extension 'cmake'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extension 'python'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extensions ['python_setup_py']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extension 'python_setup_py'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extensions ['ignore', 'ignore_ament_install']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extension 'ignore'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extension 'ignore_ament_install'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extensions ['colcon_pkg']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extension 'colcon_pkg'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extensions ['colcon_meta']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extension 'colcon_meta'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extensions ['ros']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extension 'ros'
+[1.696s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator_dependencies/cmake_modules' with type 'ros.ament_cmake' and name 'cmake_modules'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extension 'ignore'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extension 'ignore_ament_install'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extensions ['colcon_pkg']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extension 'colcon_pkg'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extensions ['colcon_meta']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extension 'colcon_meta'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extensions ['ros']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extension 'ros'
+[1.698s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator_msgs' with type 'ros.ament_cmake' and name 'open_manipulator_msgs'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub) by extensions ['ignore', 'ignore_ament_install']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub) by extension 'ignore'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub) by extension 'ignore_ament_install'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub) by extensions ['colcon_pkg']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub) by extension 'colcon_pkg'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub) by extensions ['colcon_meta']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub) by extension 'colcon_meta'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub) by extensions ['ros']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/pub_sub) by extension 'ros'
+[1.698s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pub_sub' with type 'ros.ament_python' and name 'test_package'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extensions ['ignore', 'ignore_ament_install']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extension 'ignore'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extension 'ignore_ament_install'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extensions ['colcon_pkg']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extension 'colcon_pkg'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extensions ['colcon_meta']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extension 'colcon_meta'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extensions ['ros']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extension 'ros'
+[1.700s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotis_manipulator' with type 'ros.ament_cmake' and name 'robotis_manipulator'
+[1.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.904s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/noma/FINAL_ws/manipulator/install
+[1.929s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 392 installed packages in /opt/ros/humble
+[1.931s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.027s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'dynamixel_sdk' is in: /opt/ros/humble, /home/noma/FINAL_ws/manipulator/install/dynamixel_sdk
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding dynamixel_sdk
+
+This may be promoted to an error in a future release of colcon-override-check.
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'cmake_args' from command line to 'None'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'cmake_target' from command line to 'None'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'cmake_clean_cache' from command line to 'False'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'cmake_clean_first' from command line to 'False'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'cmake_force_configure' from command line to 'False'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'ament_cmake_args' from command line to 'None'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'catkin_cmake_args' from command line to 'None'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.052s] DEBUG:colcon.colcon_core.verb:Building package 'cmake_modules' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/noma/FINAL_ws/manipulator/build/cmake_modules', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/noma/FINAL_ws/manipulator/install/cmake_modules', 'merge_install': False, 'path': '/home/noma/FINAL_ws/manipulator/src/open_manipulator_dependencies/cmake_modules', 'symlink_install': False, 'test_result_base': None}
+[2.076s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_args' from command line to 'None'
+[2.076s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target' from command line to 'None'
+[2.076s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.076s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[2.076s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[2.076s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[2.076s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[2.076s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[2.076s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.076s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk', 'merge_install': False, 'path': '/home/noma/FINAL_ws/manipulator/src/DynamixelSDK/dynamixel_sdk', 'symlink_install': False, 'test_result_base': None}
+[2.100s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.100s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.100s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.100s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.100s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.100s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.100s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.100s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.100s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.100s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces', 'merge_install': False, 'path': '/home/noma/FINAL_ws/manipulator/src/DynamixelSDK/dynamixel_sdk_custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'cmake_args' from command line to 'None'
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'cmake_target' from command line to 'None'
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.124s] DEBUG:colcon.colcon_core.verb:Building package 'open_manipulator_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs', 'merge_install': False, 'path': '/home/noma/FINAL_ws/manipulator/src/open_manipulator_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_args' from command line to 'None'
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_target' from command line to 'None'
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.148s] DEBUG:colcon.colcon_core.verb:Building package 'open_manipulator_x_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description', 'merge_install': False, 'path': '/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_description', 'symlink_install': False, 'test_result_base': None}
+[2.171s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_args' from command line to 'None'
+[2.171s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_target' from command line to 'None'
+[2.171s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.171s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_clean_cache' from command line to 'False'
+[2.172s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_clean_first' from command line to 'False'
+[2.172s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_force_configure' from command line to 'False'
+[2.172s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'ament_cmake_args' from command line to 'None'
+[2.172s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'catkin_cmake_args' from command line to 'None'
+[2.172s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.172s] DEBUG:colcon.colcon_core.verb:Building package 'test_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/noma/FINAL_ws/manipulator/build/test_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/noma/FINAL_ws/manipulator/install/test_package', 'merge_install': False, 'path': '/home/noma/FINAL_ws/manipulator/src/pub_sub', 'symlink_install': False, 'test_result_base': None}
+[2.195s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_args' from command line to 'None'
+[2.195s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target' from command line to 'None'
+[2.195s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.195s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[2.195s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_first' from command line to 'False'
+[2.196s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_force_configure' from command line to 'False'
+[2.196s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'ament_cmake_args' from command line to 'None'
+[2.196s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[2.196s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.196s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples', 'merge_install': False, 'path': '/home/noma/FINAL_ws/manipulator/src/DynamixelSDK/dynamixel_sdk_examples', 'symlink_install': False, 'test_result_base': None}
+[2.219s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_args' from command line to 'None'
+[2.219s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_target' from command line to 'None'
+[2.219s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.219s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[2.219s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[2.219s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[2.219s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[2.219s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[2.219s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.219s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_workbench_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox', 'merge_install': False, 'path': '/home/noma/FINAL_ws/manipulator/src/dynamixel-workbench/dynamixel_workbench_toolbox', 'symlink_install': False, 'test_result_base': None}
+[2.243s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'cmake_args' from command line to 'None'
+[2.243s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'cmake_target' from command line to 'None'
+[2.243s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.243s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[2.243s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[2.243s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[2.243s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[2.243s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[2.243s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.243s] DEBUG:colcon.colcon_core.verb:Building package 'open_manipulator_x_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop', 'merge_install': False, 'path': '/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_teleop', 'symlink_install': False, 'test_result_base': None}
+[2.267s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'cmake_args' from command line to 'None'
+[2.267s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'cmake_target' from command line to 'None'
+[2.267s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.267s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'cmake_clean_cache' from command line to 'False'
+[2.267s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'cmake_clean_first' from command line to 'False'
+[2.267s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'cmake_force_configure' from command line to 'False'
+[2.267s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'ament_cmake_args' from command line to 'None'
+[2.267s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'catkin_cmake_args' from command line to 'None'
+[2.267s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.267s] DEBUG:colcon.colcon_core.verb:Building package 'robotis_manipulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/noma/FINAL_ws/manipulator/build/robotis_manipulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator', 'merge_install': False, 'path': '/home/noma/FINAL_ws/manipulator/src/robotis_manipulator', 'symlink_install': False, 'test_result_base': None}
+[2.291s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_args' from command line to 'None'
+[2.291s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_target' from command line to 'None'
+[2.291s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.291s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_clean_cache' from command line to 'False'
+[2.291s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_clean_first' from command line to 'False'
+[2.291s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_force_configure' from command line to 'False'
+[2.291s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'ament_cmake_args' from command line to 'None'
+[2.291s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'catkin_cmake_args' from command line to 'None'
+[2.291s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.291s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_workbench' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/noma/FINAL_ws/manipulator/build/dynamixel_workbench', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench', 'merge_install': False, 'path': '/home/noma/FINAL_ws/manipulator/src/dynamixel-workbench/dynamixel_workbench', 'symlink_install': False, 'test_result_base': None}
+[2.315s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'cmake_args' from command line to 'None'
+[2.315s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'cmake_target' from command line to 'None'
+[2.315s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.315s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.315s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'cmake_clean_first' from command line to 'False'
+[2.315s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'cmake_force_configure' from command line to 'False'
+[2.315s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'ament_cmake_args' from command line to 'None'
+[2.315s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.315s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.315s] DEBUG:colcon.colcon_core.verb:Building package 'open_manipulator_x_libs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs', 'merge_install': False, 'path': '/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_libs', 'symlink_install': False, 'test_result_base': None}
+[2.339s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'cmake_args' from command line to 'None'
+[2.339s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'cmake_target' from command line to 'None'
+[2.339s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.339s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[2.339s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'cmake_clean_first' from command line to 'False'
+[2.339s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'cmake_force_configure' from command line to 'False'
+[2.339s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'ament_cmake_args' from command line to 'None'
+[2.339s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[2.339s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.339s] DEBUG:colcon.colcon_core.verb:Building package 'open_manipulator_x_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller', 'merge_install': False, 'path': '/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_controller', 'symlink_install': False, 'test_result_base': None}
+[2.363s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'cmake_args' from command line to 'None'
+[2.363s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'cmake_target' from command line to 'None'
+[2.363s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.363s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'cmake_clean_cache' from command line to 'False'
+[2.363s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'cmake_clean_first' from command line to 'False'
+[2.363s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'cmake_force_configure' from command line to 'False'
+[2.363s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'ament_cmake_args' from command line to 'None'
+[2.363s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'catkin_cmake_args' from command line to 'None'
+[2.363s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.363s] DEBUG:colcon.colcon_core.verb:Building package 'open_manipulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/noma/FINAL_ws/manipulator/build/open_manipulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/noma/FINAL_ws/manipulator/install/open_manipulator', 'merge_install': False, 'path': '/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator', 'symlink_install': False, 'test_result_base': None}
+[2.386s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.410s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.411s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/noma/FINAL_ws/manipulator/src/DynamixelSDK/dynamixel_sdk' with build type 'ament_cmake'
+[2.411s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/noma/FINAL_ws/manipulator/src/DynamixelSDK/dynamixel_sdk'
+[2.437s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.437s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.437s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.516s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/noma/FINAL_ws/manipulator/src/open_manipulator_dependencies/cmake_modules' with build type 'ament_cmake'
+[2.516s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/noma/FINAL_ws/manipulator/src/open_manipulator_dependencies/cmake_modules'
+[2.543s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.619s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/noma/FINAL_ws/manipulator/src/open_manipulator_msgs' with build type 'ament_cmake'
+[2.620s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/noma/FINAL_ws/manipulator/src/open_manipulator_msgs'
+[2.645s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.645s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.719s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/noma/FINAL_ws/manipulator/src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with build type 'ament_cmake'
+[2.720s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/noma/FINAL_ws/manipulator/src/DynamixelSDK/dynamixel_sdk_custom_interfaces'
+[2.745s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.745s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.820s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_description' with build type 'ament_cmake'
+[2.820s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_description'
+[2.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.937s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/noma/FINAL_ws/manipulator/src/pub_sub' with build type 'ament_python'
+[2.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_package', 'ament_prefix_path')
+[2.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/test_package/share/test_package/hook/ament_prefix_path.ps1'
+[2.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/test_package/share/test_package/hook/ament_prefix_path.dsv'
+[2.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/test_package/share/test_package/hook/ament_prefix_path.sh'
+[2.989s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.989s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk -- -j8 -l8
+[3.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/cmake_modules': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/cmake_modules -- -j8 -l8
+[3.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs -- -j8 -l8
+[3.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[3.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description -- -j8 -l8
+[3.578s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/noma/FINAL_ws/manipulator/src/pub_sub'
+[3.622s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.623s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/cmake_modules' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/cmake_modules -- -j8 -l8
+[3.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk -- -j8 -l8
+[3.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[3.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description -- -j8 -l8
+[3.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs -- -j8 -l8
+[3.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/cmake_modules': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/cmake_modules
+[3.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description
+[3.785s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmake_modules)
+[3.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/cmake_modules' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/cmake_modules
+[3.822s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/cmake_modules' for CMake module files
+[3.822s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/cmake_modules' for CMake config files
+[3.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmake_modules', 'cmake_prefix_path')
+[3.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/hook/cmake_prefix_path.ps1'
+[3.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/hook/cmake_prefix_path.dsv'
+[3.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/hook/cmake_prefix_path.sh'
+[3.850s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/cmake_modules/bin'
+[3.850s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/cmake_modules/lib/pkgconfig/cmake_modules.pc'
+[3.850s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/cmake_modules/lib/python3.10/site-packages'
+[3.850s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/cmake_modules/bin'
+[3.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/package.ps1'
+[3.877s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/package.dsv'
+[3.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/package.sh'
+[3.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/package.bash'
+[3.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/package.zsh'
+[3.879s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/colcon-core/packages/cmake_modules)
+[3.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk
+[3.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces
+[3.885s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_x_description)
+[3.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_description
+[3.923s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description' for CMake module files
+[3.923s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description' for CMake config files
+[3.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_description', 'cmake_prefix_path')
+[3.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.ps1'
+[3.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.dsv'
+[3.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.sh'
+[3.950s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/bin'
+[3.950s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/lib/pkgconfig/open_manipulator_x_description.pc'
+[3.951s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/lib/python3.10/site-packages'
+[3.951s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/bin'
+[3.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/package.ps1'
+[3.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/package.dsv'
+[3.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/package.sh'
+[3.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/package.bash'
+[3.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/package.zsh'
+[3.978s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/colcon-core/packages/open_manipulator_x_description)
+[3.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs
+[4.036s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmake_modules)
+[4.062s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/cmake_modules' for CMake module files
+[4.062s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/cmake_modules' for CMake config files
+[4.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmake_modules', 'cmake_prefix_path')
+[4.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/hook/cmake_prefix_path.ps1'
+[4.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/hook/cmake_prefix_path.dsv'
+[4.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/hook/cmake_prefix_path.sh'
+[4.089s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/cmake_modules/bin'
+[4.089s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/cmake_modules/lib/pkgconfig/cmake_modules.pc'
+[4.089s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/cmake_modules/lib/python3.10/site-packages'
+[4.089s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/cmake_modules/bin'
+[4.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/package.ps1'
+[4.116s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/package.dsv'
+[4.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/package.sh'
+[4.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/package.bash'
+[4.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/cmake_modules/package.zsh'
+[4.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/cmake_modules/share/colcon-core/packages/cmake_modules)
+[4.119s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/noma/FINAL_ws/manipulator/src/robotis_manipulator' with build type 'ament_cmake'
+[4.119s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/noma/FINAL_ws/manipulator/src/robotis_manipulator'
+[4.164s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.165s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.251s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[4.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk
+[4.278s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk' for CMake module files
+[4.279s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk' for CMake config files
+[4.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[4.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[4.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[4.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[4.307s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib'
+[4.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[4.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[4.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[4.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[4.338s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/bin'
+[4.338s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[4.338s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib/python3.10/site-packages'
+[4.339s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/bin'
+[4.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[4.367s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[4.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[4.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[4.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[4.369s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[4.370s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[4.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_custom_interfaces
+[4.397s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[4.398s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[4.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[4.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[4.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[4.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[4.425s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib'
+[4.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[4.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[4.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[4.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[4.452s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/bin'
+[4.452s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[4.452s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib/python3.10/site-packages'
+[4.453s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/bin'
+[4.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[4.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[4.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[4.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[4.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[4.480s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[4.506s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_x_description)
+[4.531s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description' for CMake module files
+[4.532s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description' for CMake config files
+[4.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_description', 'cmake_prefix_path')
+[4.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.ps1'
+[4.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.dsv'
+[4.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.sh'
+[4.559s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/bin'
+[4.559s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/lib/pkgconfig/open_manipulator_x_description.pc'
+[4.559s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/lib/python3.10/site-packages'
+[4.560s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/bin'
+[4.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/package.ps1'
+[4.585s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/package.dsv'
+[4.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/package.sh'
+[4.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/package.bash'
+[4.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/open_manipulator_x_description/package.zsh'
+[4.586s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description/share/colcon-core/packages/open_manipulator_x_description)
+[4.587s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_msgs)
+[4.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/open_manipulator_msgs
+[4.613s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs' for CMake module files
+[4.614s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs' for CMake config files
+[4.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_msgs', 'cmake_prefix_path')
+[4.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/cmake_prefix_path.ps1'
+[4.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/cmake_prefix_path.dsv'
+[4.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/cmake_prefix_path.sh'
+[4.640s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib'
+[4.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_msgs', 'ld_library_path_lib')
+[4.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/ld_library_path_lib.ps1'
+[4.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/ld_library_path_lib.dsv'
+[4.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/ld_library_path_lib.sh'
+[4.666s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/bin'
+[4.666s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib/pkgconfig/open_manipulator_msgs.pc'
+[4.667s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib/python3.10/site-packages'
+[4.667s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/bin'
+[4.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/package.ps1'
+[4.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/package.dsv'
+[4.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/package.sh'
+[4.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/package.bash'
+[4.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/package.zsh'
+[4.694s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/colcon-core/packages/open_manipulator_msgs)
+[4.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/src/pub_sub': PYTHONPATH=/home/noma/FINAL_ws/manipulator/build/test_package/prefix_override:/home/noma/FINAL_ws/manipulator/install/test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_package build --build-base /home/noma/FINAL_ws/manipulator/build/test_package/build install --record /home/noma/FINAL_ws/manipulator/build/test_package/install.log --single-version-externally-managed
+[4.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/robotis_manipulator': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/robotis_manipulator -- -j8 -l8
+[4.727s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[4.759s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk' for CMake module files
+[4.760s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk' for CMake config files
+[4.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[4.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[4.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[4.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[4.788s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib'
+[4.788s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[4.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[4.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[4.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[4.815s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/bin'
+[4.815s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[4.815s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib/python3.10/site-packages'
+[4.815s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/bin'
+[4.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[4.842s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[4.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[4.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[4.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[4.844s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[4.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[4.895s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[4.896s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[4.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[4.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[4.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[4.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[4.922s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib'
+[4.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[4.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[4.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[4.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[4.949s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/bin'
+[4.949s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[4.950s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib/python3.10/site-packages'
+[4.950s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/bin'
+[4.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[4.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[4.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[4.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[4.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[4.976s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[4.976s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/noma/FINAL_ws/manipulator/src/dynamixel-workbench/dynamixel_workbench_toolbox' with build type 'ament_cmake'
+[4.976s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/noma/FINAL_ws/manipulator/src/dynamixel-workbench/dynamixel_workbench_toolbox'
+[5.001s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.001s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.083s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/noma/FINAL_ws/manipulator/src/DynamixelSDK/dynamixel_sdk_examples' with build type 'ament_cmake'
+[5.083s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/noma/FINAL_ws/manipulator/src/DynamixelSDK/dynamixel_sdk_examples'
+[5.110s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.110s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/robotis_manipulator' returned '0': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/robotis_manipulator -- -j8 -l8
+[5.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_msgs)
+[5.259s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs' for CMake module files
+[5.259s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs' for CMake config files
+[5.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_msgs', 'cmake_prefix_path')
+[5.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/cmake_prefix_path.ps1'
+[5.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/cmake_prefix_path.dsv'
+[5.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/cmake_prefix_path.sh'
+[5.285s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib'
+[5.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_msgs', 'ld_library_path_lib')
+[5.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/ld_library_path_lib.ps1'
+[5.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/ld_library_path_lib.dsv'
+[5.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/ld_library_path_lib.sh'
+[5.310s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/bin'
+[5.310s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib/pkgconfig/open_manipulator_msgs.pc'
+[5.311s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib/python3.10/site-packages'
+[5.311s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/bin'
+[5.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/package.ps1'
+[5.336s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/package.dsv'
+[5.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/package.sh'
+[5.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/package.bash'
+[5.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/open_manipulator_msgs/package.zsh'
+[5.337s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/share/colcon-core/packages/open_manipulator_msgs)
+[5.340s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_teleop' with build type 'ament_python'
+[5.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_teleop', 'ament_prefix_path')
+[5.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox -- -j8 -l8
+[5.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/hook/ament_prefix_path.ps1'
+[5.366s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/hook/ament_prefix_path.dsv'
+[5.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/hook/ament_prefix_path.sh'
+[5.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/src/pub_sub' returned '0': PYTHONPATH=/home/noma/FINAL_ws/manipulator/build/test_package/prefix_override:/home/noma/FINAL_ws/manipulator/install/test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_package build --build-base /home/noma/FINAL_ws/manipulator/build/test_package/build install --record /home/noma/FINAL_ws/manipulator/build/test_package/install.log --single-version-externally-managed
+[5.496s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/test_package' for CMake module files
+[5.496s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/test_package' for CMake config files
+[5.497s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/test_package/lib'
+[5.497s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/test_package/bin'
+[5.497s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/test_package/lib/pkgconfig/test_package.pc'
+[5.497s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/test_package/lib/python3.10/site-packages'
+[5.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_package', 'pythonpath')
+[5.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/test_package/share/test_package/hook/pythonpath.ps1'
+[5.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/test_package/share/test_package/hook/pythonpath.dsv'
+[5.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/test_package/share/test_package/hook/pythonpath.sh'
+[5.523s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/test_package/bin'
+[5.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_package)
+[5.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/test_package/share/test_package/package.ps1'
+[5.547s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/test_package/share/test_package/package.dsv'
+[5.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/test_package/share/test_package/package.sh'
+[5.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/test_package/share/test_package/package.bash'
+[5.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/test_package/share/test_package/package.zsh'
+[5.548s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/test_package/share/colcon-core/packages/test_package)
+[5.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples -- -j8 -l8
+[5.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/robotis_manipulator': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/robotis_manipulator
+[5.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox -- -j8 -l8
+[5.919s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_teleop'
+[5.944s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.944s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox
+[6.023s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotis_manipulator)
+[6.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/robotis_manipulator' returned '0': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/robotis_manipulator
+[6.050s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator' for CMake module files
+[6.051s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator' for CMake config files
+[6.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotis_manipulator', 'cmake_prefix_path')
+[6.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/hook/cmake_prefix_path.ps1'
+[6.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/hook/cmake_prefix_path.dsv'
+[6.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/hook/cmake_prefix_path.sh'
+[6.077s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib'
+[6.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotis_manipulator', 'ld_library_path_lib')
+[6.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/hook/ld_library_path_lib.ps1'
+[6.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/hook/ld_library_path_lib.dsv'
+[6.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/hook/ld_library_path_lib.sh'
+[6.101s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/bin'
+[6.101s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib/pkgconfig/robotis_manipulator.pc'
+[6.101s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib/python3.10/site-packages'
+[6.102s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/bin'
+[6.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/package.ps1'
+[6.126s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/package.dsv'
+[6.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/package.sh'
+[6.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/package.bash'
+[6.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/package.zsh'
+[6.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/colcon-core/packages/robotis_manipulator)
+[6.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples -- -j8 -l8
+[6.133s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench_toolbox)
+[6.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/dynamixel_workbench_toolbox
+[6.161s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox' for CMake module files
+[6.162s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox' for CMake config files
+[6.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_toolbox', 'cmake_prefix_path')
+[6.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.ps1'
+[6.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.dsv'
+[6.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.sh'
+[6.188s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib'
+[6.189s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_toolbox', 'ld_library_path_lib')
+[6.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.ps1'
+[6.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.dsv'
+[6.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.sh'
+[6.216s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/bin'
+[6.216s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib/pkgconfig/dynamixel_workbench_toolbox.pc'
+[6.216s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib/python3.10/site-packages'
+[6.216s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/bin'
+[6.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.ps1'
+[6.242s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.dsv'
+[6.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.sh'
+[6.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.bash'
+[6.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.zsh'
+[6.244s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/colcon-core/packages/dynamixel_workbench_toolbox)
+[6.273s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotis_manipulator)
+[6.297s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator' for CMake module files
+[6.297s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator' for CMake config files
+[6.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotis_manipulator', 'cmake_prefix_path')
+[6.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/hook/cmake_prefix_path.ps1'
+[6.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/hook/cmake_prefix_path.dsv'
+[6.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/hook/cmake_prefix_path.sh'
+[6.322s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib'
+[6.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotis_manipulator', 'ld_library_path_lib')
+[6.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/hook/ld_library_path_lib.ps1'
+[6.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/hook/ld_library_path_lib.dsv'
+[6.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/hook/ld_library_path_lib.sh'
+[6.348s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/bin'
+[6.348s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib/pkgconfig/robotis_manipulator.pc'
+[6.348s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib/python3.10/site-packages'
+[6.348s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/bin'
+[6.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/package.ps1'
+[6.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/package.dsv'
+[6.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/package.sh'
+[6.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/package.bash'
+[6.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/robotis_manipulator/package.zsh'
+[6.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/share/colcon-core/packages/robotis_manipulator)
+[6.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples
+[6.403s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench_toolbox)
+[6.428s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox' for CMake module files
+[6.428s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox' for CMake config files
+[6.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_toolbox', 'cmake_prefix_path')
+[6.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.ps1'
+[6.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.dsv'
+[6.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.sh'
+[6.455s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib'
+[6.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_toolbox', 'ld_library_path_lib')
+[6.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.ps1'
+[6.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.dsv'
+[6.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.sh'
+[6.480s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/bin'
+[6.480s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib/pkgconfig/dynamixel_workbench_toolbox.pc'
+[6.481s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib/python3.10/site-packages'
+[6.481s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/bin'
+[6.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.ps1'
+[6.506s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.dsv'
+[6.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.sh'
+[6.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.bash'
+[6.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.zsh'
+[6.507s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/share/colcon-core/packages/dynamixel_workbench_toolbox)
+[6.508s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_libs' with build type 'ament_cmake'
+[6.508s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_libs'
+[6.535s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.535s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.614s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/noma/FINAL_ws/manipulator/src/dynamixel-workbench/dynamixel_workbench' with build type 'ament_cmake'
+[6.614s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/noma/FINAL_ws/manipulator/src/dynamixel-workbench/dynamixel_workbench'
+[6.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.641s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.728s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[6.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/dynamixel_sdk_examples
+[6.753s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples' for CMake module files
+[6.754s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples' for CMake config files
+[6.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[6.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[6.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[6.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[6.780s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/lib'
+[6.780s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/bin'
+[6.780s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[6.780s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/lib/python3.10/site-packages'
+[6.781s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/bin'
+[6.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[6.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[6.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[6.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[6.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[6.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[6.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_teleop': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/cmake_modules LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ PYTHONPATH=/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_teleop/prefix_override:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/open_manipulator_x_teleop build --build-base /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_teleop/build install --record /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_teleop/install.log --single-version-externally-managed
+[6.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs -- -j8 -l8
+[6.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_workbench': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/dynamixel_workbench -- -j8 -l8
+[6.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[6.884s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples' for CMake module files
+[6.884s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples' for CMake config files
+[6.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[6.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[6.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[6.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[6.910s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/lib'
+[6.910s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/bin'
+[6.910s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[6.910s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/lib/python3.10/site-packages'
+[6.910s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/bin'
+[6.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[6.935s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[6.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[6.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[6.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[6.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[6.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_workbench' returned '0': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/dynamixel_workbench -- -j8 -l8
+[6.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs' returned '0': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs -- -j8 -l8
+[6.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_workbench': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/dynamixel_workbench
+[6.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs
+[6.971s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench)
+[6.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/dynamixel_workbench' returned '0': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/dynamixel_workbench
+[7.015s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench' for CMake module files
+[7.015s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench' for CMake config files
+[7.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench', 'cmake_prefix_path')
+[7.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.ps1'
+[7.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.dsv'
+[7.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.sh'
+[7.041s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/bin'
+[7.041s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/lib/pkgconfig/dynamixel_workbench.pc'
+[7.042s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/lib/python3.10/site-packages'
+[7.042s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/bin'
+[7.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/dynamixel_workbench/package.ps1'
+[7.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/dynamixel_workbench/package.dsv'
+[7.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/dynamixel_workbench/package.sh'
+[7.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/dynamixel_workbench/package.bash'
+[7.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/dynamixel_workbench/package.zsh'
+[7.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/colcon-core/packages/dynamixel_workbench)
+[7.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_x_libs)
+[7.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs' returned '0': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --install /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_libs
+[7.095s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs' for CMake module files
+[7.096s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs' for CMake config files
+[7.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_libs', 'cmake_prefix_path')
+[7.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/cmake_prefix_path.ps1'
+[7.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/cmake_prefix_path.dsv'
+[7.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/cmake_prefix_path.sh'
+[7.122s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib'
+[7.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_libs', 'ld_library_path_lib')
+[7.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/ld_library_path_lib.ps1'
+[7.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/ld_library_path_lib.dsv'
+[7.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/ld_library_path_lib.sh'
+[7.149s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/bin'
+[7.149s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib/pkgconfig/open_manipulator_x_libs.pc'
+[7.149s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib/python3.10/site-packages'
+[7.149s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/bin'
+[7.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.ps1'
+[7.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.dsv'
+[7.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.sh'
+[7.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.bash'
+[7.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.zsh'
+[7.178s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/colcon-core/packages/open_manipulator_x_libs)
+[7.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench)
+[7.237s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench' for CMake module files
+[7.237s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench' for CMake config files
+[7.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench', 'cmake_prefix_path')
+[7.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.ps1'
+[7.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.dsv'
+[7.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.sh'
+[7.264s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/bin'
+[7.264s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/lib/pkgconfig/dynamixel_workbench.pc'
+[7.265s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/lib/python3.10/site-packages'
+[7.265s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/bin'
+[7.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/dynamixel_workbench/package.ps1'
+[7.289s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/dynamixel_workbench/package.dsv'
+[7.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/dynamixel_workbench/package.sh'
+[7.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/dynamixel_workbench/package.bash'
+[7.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/dynamixel_workbench/package.zsh'
+[7.291s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench/share/colcon-core/packages/dynamixel_workbench)
+[7.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_teleop' returned '0': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/cmake_modules LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ PYTHONPATH=/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_teleop/prefix_override:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/open_manipulator_x_teleop build --build-base /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_teleop/build install --record /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_teleop/install.log --single-version-externally-managed
+[7.318s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop' for CMake module files
+[7.319s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop' for CMake config files
+[7.319s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/lib'
+[7.320s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/bin'
+[7.320s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/lib/pkgconfig/open_manipulator_x_teleop.pc'
+[7.320s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/lib/python3.10/site-packages'
+[7.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_teleop', 'pythonpath')
+[7.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/hook/pythonpath.ps1'
+[7.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/hook/pythonpath.dsv'
+[7.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/hook/pythonpath.sh'
+[7.347s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/bin'
+[7.347s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_x_teleop)
+[7.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.ps1'
+[7.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.dsv'
+[7.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.sh'
+[7.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.bash'
+[7.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.zsh'
+[7.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop/share/colcon-core/packages/open_manipulator_x_teleop)
+[7.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_x_libs)
+[7.435s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs' for CMake module files
+[7.436s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs' for CMake config files
+[7.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_libs', 'cmake_prefix_path')
+[7.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/cmake_prefix_path.ps1'
+[7.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/cmake_prefix_path.dsv'
+[7.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/cmake_prefix_path.sh'
+[7.462s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib'
+[7.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_libs', 'ld_library_path_lib')
+[7.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/ld_library_path_lib.ps1'
+[7.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/ld_library_path_lib.dsv'
+[7.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/ld_library_path_lib.sh'
+[7.487s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/bin'
+[7.488s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib/pkgconfig/open_manipulator_x_libs.pc'
+[7.488s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib/python3.10/site-packages'
+[7.488s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/bin'
+[7.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.ps1'
+[7.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.dsv'
+[7.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.sh'
+[7.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.bash'
+[7.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.zsh'
+[7.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/share/colcon-core/packages/open_manipulator_x_libs)
+[7.515s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_controller' with build type 'ament_cmake'
+[7.515s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/noma/FINAL_ws/manipulator/src/open_manipulator/open_manipulator_x_controller'
+[7.541s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_controller': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_controller -- -j8 -l8
+[14.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noma/FINAL_ws/manipulator/build/open_manipulator_x_controller' returned '2': CMAKE_PREFIX_PATH=/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk:/home/noma/FINAL_ws/manipulator/install/cmake_modules:/home/noma/FINAL_ws/manipulator/install/open_manipulator:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_description:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_examples:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces:/home/noma/FINAL_ws/manipulator/install/test_package:/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_libs/lib:/home/noma/FINAL_ws/manipulator/install/robotis_manipulator/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_workbench_toolbox/lib:/home/noma/FINAL_ws/manipulator/install/open_manipulator_msgs/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk/lib:/home/noma/FINAL_ws/manipulator/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64/ /usr/bin/cmake --build /home/noma/FINAL_ws/manipulator/build/open_manipulator_x_controller -- -j8 -l8
+[14.726s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_x_controller)
+[14.750s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller' for CMake module files
+[14.751s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller' for CMake config files
+[14.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_controller', 'cmake_prefix_path')
+[14.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller/share/open_manipulator_x_controller/hook/cmake_prefix_path.ps1'
+[14.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller/share/open_manipulator_x_controller/hook/cmake_prefix_path.dsv'
+[14.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller/share/open_manipulator_x_controller/hook/cmake_prefix_path.sh'
+[14.776s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller/lib'
+[14.777s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller/bin'
+[14.777s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller/lib/pkgconfig/open_manipulator_x_controller.pc'
+[14.777s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller/lib/python3.10/site-packages'
+[14.777s] Level 1:colcon.colcon_core.environment:checking '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller/bin'
+[14.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller/share/open_manipulator_x_controller/package.ps1'
+[14.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller/share/open_manipulator_x_controller/package.dsv'
+[14.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller/share/open_manipulator_x_controller/package.sh'
+[14.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller/share/open_manipulator_x_controller/package.bash'
+[14.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller/share/open_manipulator_x_controller/package.zsh'
+[14.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noma/FINAL_ws/manipulator/install/open_manipulator_x_controller/share/colcon-core/packages/open_manipulator_x_controller)
+[14.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[14.814s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.845s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.845s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.845s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.857s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.883s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/noma/FINAL_ws/manipulator/install/local_setup.ps1'
+[14.884s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/noma/FINAL_ws/manipulator/install/_local_setup_util_ps1.py'
+[14.885s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/noma/FINAL_ws/manipulator/install/setup.ps1'
+[14.912s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/noma/FINAL_ws/manipulator/install/local_setup.sh'
+[14.912s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/noma/FINAL_ws/manipulator/install/_local_setup_util_sh.py'
+[14.912s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/noma/FINAL_ws/manipulator/install/setup.sh'
+[14.940s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/noma/FINAL_ws/manipulator/install/local_setup.bash'
+[14.941s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/noma/FINAL_ws/manipulator/install/setup.bash'
+[14.967s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/noma/FINAL_ws/manipulator/install/local_setup.zsh'
+[14.968s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/noma/FINAL_ws/manipulator/install/setup.zsh'
